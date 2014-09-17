@@ -9,6 +9,4 @@ public object Constant {
     public val XHDPI_SCALE: Float = 0.75f
     public val XXHDPI_SCALE: Float = 0.5f
     public val SMALL_XHDPI_SCALE: Float = 0.65f
-
-    val EURO_SIGN: String = "\u20ac"
 }
