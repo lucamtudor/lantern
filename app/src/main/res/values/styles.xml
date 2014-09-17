@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/dark_gray2</item>
+    </style>
+
+    <style name="AppTheme.DarkActionBar" parent="AppTheme">
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar.Solid</item>
+    </style>
+
+    <style name="AppTheme.Fullscreen.DarkActionBar" parent="AppTheme.DarkActionBar">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar.Solid" parent="Widget.AppCompat.ActionBar.Solid">
+        <item name="background">@color/black_overlay</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+</resources>

@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tudorluca.lantern.AboutActivity">
+
+    <TextView
+        android:id="@+id/bits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@string/bits_and_artwork"
+        android:textColor="@color/logo_blue"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/coder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bits"
+        android:layout_centerHorizontal="true"
+        android:text="@string/tudor_luca"
+        android:textColor="@color/light_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/artist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/coder"
+        android:layout_centerHorizontal="true"
+        android:text="@string/andra_todorescu"
+        android:textColor="@color/light_gray"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/support_us_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/artist"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:text="@string/support_us_message"
+        android:textColor="@color/dark_gray4" />
+
+    <RelativeLayout
+        android:id="@+id/donation_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/support_us_label"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/donation_happy_face"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/happy_faces"
+            android:scaleType="centerInside"
+            android:src="@drawable/smiley_01_yellow" />
+
+        <com.tudorluca.lantern.widget.DonationSeekBar
+            android:id="@+id/donation_seekbar"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/donation_happy_face"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:id="@+id/donation_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/donation_seekbar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/donate_button_background"
+            android:text="@string/donate"
+            android:textColor="@drawable/done_color_selector" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/made_in_romania"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/version_label"
+        android:layout_centerHorizontal="true"
+        android:text="@string/made_in_romania"
+        android:textColor="@color/dark_gray4"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/version_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/version"
+        android:textColor="@color/transparent_gray"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/project_kotlin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/project_kotlin"
+        android:src="@drawable/kotlin_logo" />
+
+</RelativeLayout>

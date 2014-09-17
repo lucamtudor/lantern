@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Torcia</string>
+    <string name="lantern_on">Torcia attiva</string>
+    <string name="lantern_off">Torcia non attiva</string>
+    <string name="screen_on">Schermo attivo</string>
+    <string name="screen_off">Schermo non attivo</string>
+    <string name="title_activity_about">Informazioni</string>
+    <string name="action_about">@string/title_activity_about</string>
+    <string name="donate">DONARE</string>
+    <string name="happy_faces">Happy faces!</string>
+    <string name="tudor_luca">Tudor Luca</string>
+    <string name="andra_todorescu">Andra Todorescu</string>
+    <string name="bits_and_artwork">Bits &#38; Artwork</string>
+    <string name="support_us_message">Questa è una applicazione gratuita, senza pubblicità. Se ti piace l\'applicazione, si prega di sostenerci!</string>
+    <string name="version">Versione</string>
+    <string name="made_in_romania">Realizzata in Romania</string>
+    <string name="thank_you">Grazie per il tuo supporto!</string>
+    <string name="thank_you_great">Grazie per il tuo supporto! Sei grande!</string>
+    <string name="thank_you_awesome">Sei fantastico! Grazie mille per il tuo sostegno!</string>
+    <string name="thank_you_ultimate">Grazie mille per il tuo sostegno! WE &#9829; U!</string>
+    <string name="project_kotlin">Project Kotlin</string>
+
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lantern_on">Lantern On</string>
+    <string name="lantern_off">Lantern Off</string>
+    <string name="screen_on">Screen On</string>
+    <string name="screen_off">Screen Off</string>
+    <string name="title_activity_about">About</string>
+    <string name="action_about">@string/title_activity_about</string>
+    <string name="happy_faces">Happy faces!</string>
+    <string name="tudor_luca">Tudor Luca</string>
+    <string name="andra_todorescu">Andra Todorescu</string>
+    <string name="bits_and_artwork">Bits &#38; Artwork</string>
+    <string name="support_us_message">This is a free app, with no ads. If you like the app, please support us!</string>
+    <string name="donate">DONATE</string>
+    <string name="version">Version</string>
+    <string name="made_in_romania">Made in Romania</string>
+    <string name="thank_you">Thank you for your support!</string>
+    <string name="thank_you_great">Thank you for your support! You are great!</string>
+    <string name="thank_you_awesome">You are AWESOME! Thank you so much for your support!</string>
+    <string name="thank_you_ultimate">You are such a nice human being! WE &#9829; U!</string>
+    <string name="app_name">Lantern</string>
+    <string name="project_kotlin">Project Kotlin</string>
+
+</resources>

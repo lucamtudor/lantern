@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lantern_on">Lanternă On</string>
+    <string name="lantern_off">Lanternă Off</string>
+    <string name="screen_on">Ecran Activ</string>
+    <string name="screen_off">Ecran Inactiv</string>
+    <string name="title_activity_about">Despre</string>
+    <string name="action_about">@string/title_activity_about</string>
+    <string name="happy_faces">Happy faces!</string>
+    <string name="tudor_luca">Tudor Luca</string>
+    <string name="andra_todorescu">Andra Todorescu</string>
+    <string name="bits_and_artwork">Bits &#38; Artwork</string>
+    <string name="support_us_message">Această aplicație este gratuită și nu conține reclame. Dacă îți place aplicația, te rugăm să ne sprijini!</string>
+    <string name="donate">DONEAZĂ</string>
+    <string name="version">Versiunea</string>
+    <string name="made_in_romania">Dezvoltat în România</string>
+    <string name="thank_you">Mulțumim pentru sprijin!</string>
+    <string name="thank_you_great">Mulțumim pentru sprijin! Ești grozav!</string>
+    <string name="thank_you_awesome">Ești bestial! Mulțumim frumos pentru sprijinul acordat!</string>
+    <string name="thank_you_ultimate">Ești CEL MAI TARE! WE &#9829; U!</string>
+    <string name="app_name">Lanternă</string>
+    <string name="project_kotlin">Project Kotlin</string>
+
+</resources>
